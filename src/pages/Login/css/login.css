@@ -1,0 +1,342 @@
+/*整个部分*/
+#pages{
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/*#login {*/
+  /*width: 61.77vw;*/
+  /*margin: 17.59vh auto 11.11vh;*/
+/*}*/
+
+/*主要内容*/
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:17.96vh 19.27vw 0;
+}
+/*左边部分*/
+section{
+
+}
+/*右边部分*/
+aside{
+
+}
+/*右边logo*/
+#logo {
+  /*width:9.17vw;*/
+  width: 176px;
+  /*height: 3.334vw;*/
+  height: 64px;
+  margin: 0.20vw 0 1.3vw;
+}
+
+/*右边字体部分*/
+.introduce {
+  /*font:300 1.1vw "Microsoft YaHei";*/
+  font: 300 20px "Microsoft YaHei";
+  line-height: 2;
+  color: #ffffff;
+  width: 32.292vw;
+  letter-spacing: 0.1vw; /**字间距*/
+}
+#login-panel {
+	  box-sizing: border-box;
+	    background: #fff;
+}
+#login-panel .title {
+	  position: relative;
+	  display: flex;
+  justify-content: space-between;
+}
+.massges {
+  display: flex;
+}
+.massge {
+	  position: relative;
+	    color: #329ce9;
+	      line-height: 2;
+	        border: 1px solid #329ce9;
+  background-color: #ebf7ff;
+}
+.massge:after {
+  position: absolute;
+  content: "";
+  background: #ebf7ff;
+  border-style: solid;
+  border-width: 1px;
+  border-right-color: #329ce9;
+  border-top-color: #329ce9;
+  border-left-color: #ebf7ff;
+  border-bottom-color: #ebf7ff;
+  transform: rotate(45deg);
+}
+.tip{
+  text-align: center;
+  font-size: 15px;
+  color: #333333;
+}
+.tip-color {
+  color: #329ce9;
+}
+.viptip{
+  margin: 20px 0 0;
+  font: 400 15px "Microsoft YaHei";
+  color: #808080;
+}
+.inputbox input,.buttonbox input{
+  box-sizing: border-box;
+  border-width:1px;
+  border-style: solid;
+  border-color: #dcddde;
+  outline: none;
+}
+.buttonbox input{
+  background-color:#329ce9;
+  border-color:#329ce9;
+  color: white;
+}
+/*页脚*/
+footer, a {
+  color: #fff;
+}
+
+footer {
+  margin-top: 28vh;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.8;
+  width: 61.7vw;
+  margin: 28vh auto 0;
+}
+
+.herf a {
+  padding: 0 10px;
+}
+hr{
+  margin: 1vh 0;
+}
+.herf span {
+  font-weight: 100;
+}
+	/*左边登陆部分*/
+#login-panel {
+  /*width: 20.3125vw;*/
+  width: 390px;
+  /*height: 21.354vw;*/
+  height: 350px;
+  padding: 34px 24px;
+}
+
+#login-panel .title {
+  font-size: 18px;
+}
+.massge {
+  width: 72px;
+  height: 28px;
+  font-size: 14px;
+  text-indent: 8px;
+  margin-right: 7px;
+}
+.massge:after{
+	  width: 9.8px;
+  height: 9.8px;
+  left: 66px;
+    top: 8px;
+}
+.tip{
+  font-size: 15px;
+}
+
+.inputbox input,.buttonbox input{
+  text-indent: 15px;
+  width: 340px;
+  height: 40px;
+  margin-top: 20px;
+}
+.buttonbox input{
+  font-size: 16px;
+  margin-top: 26px;
+}
+.foget{
+  margin-top: 12px;
+  text-align: right;
+  font-size: 14px;
+  color: #9b9b9b;
+}
+.otherLogin{
+  font-size: 14px;
+  color: #606060;
+  margin-top:20px;
+}
+@media only screen and (min-width: 1600px) {
+	/*左边登陆部分*/
+#login-panel {
+  /*width: 20.3125vw;*/
+  width: 390px;
+  /*height: 21.354vw;*/
+  height: 350px;
+  padding: 34px 24px;
+}
+
+#login-panel .title {
+  font-size: 18px;
+}
+.massge {
+  width: 72px;
+  height: 28px;
+  font-size: 14px;
+  text-indent: 8px;
+  margin-right: 7px;
+}
+.massge:after{
+	  width: 9.8px;
+  height: 9.8px;
+  left: 66px;
+    top: 8px;
+}
+.tip{
+  font-size: 15px;
+}
+
+.inputbox input,.buttonbox input{
+  text-indent: 15px;
+  width: 340px;
+  height: 40px;
+  margin-top: 20px;
+}
+.buttonbox input{
+  font-size: 16px;
+  margin-top: 26px;
+}
+.foget{
+  margin-top: 12px;
+  text-align: right;
+  font-size: 14px;
+  color: #9b9b9b;
+}
+.otherLogin{
+  font-size: 14px;
+  color: #606060;
+  margin-top:20px;
+}
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1600px) {
+	/*左边登陆部分*/
+#login-panel {
+  width: 350px;
+  height: 280px;
+  padding: 20px 18px;
+}
+.viptip{
+  margin: 15px 0 0;}
+#login-panel .title {
+  font-size: 16px;
+}
+.massge {
+  width: 68px;
+  height: 25px;
+  font-size: 12px;
+  text-indent: 8px;
+  margin-right: 7px;
+}
+.massge:after{
+	  width: 8px;
+  height: 8px;
+  left: 63px;
+    top: 8px;
+}
+.tip{
+  font-size: 13px;
+}
+
+.inputbox input,.buttonbox input{
+  text-indent: 8px;
+  width: 310px;
+  height: 36px;
+  margin-top: 16px;
+}
+.buttonbox input{
+  font-size: 14px;
+  margin-top: 22px;
+}
+.introduce{
+	font-size: 16px;
+}
+footer{
+	margin-top: 20vh;
+}
+}
+@media only screen and (max-width: 1300px){
+	main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 	padding:10%;
+}
+section{
+	text-align: center;
+}
+	#pages{
+	overflow: auto;
+}
+	/*左边登陆部分*/
+	.introduce{
+		width: 100%;
+	}
+#login-panel {
+  max-width: 450px;
+  margin: auto;
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+  padding: 20px 18px;
+}
+.viptip{
+  margin: 15px 0 0;}
+#login-panel .title {
+  font-size: 16px;
+}
+.massge {
+  width: 68px;
+  height: 25px;
+  font-size: 12px;
+  text-indent: 8px;
+  margin-right: 7px;
+}
+.massge:after{
+	  width: 8px;
+  height: 8px;
+  left: 63px;
+    top: 8px;
+}
+.tip{
+  font-size: 13px;
+}
+aside {
+    width: 100%;
+}
+.inputbox input,.buttonbox input{
+  text-indent: 8px;
+  width: 100%;
+  height: 40px;
+  margin-top: 16px;
+}
+.buttonbox input{
+  font-size: 14px;
+  margin-top: 22px;
+}
+.introduce{
+	font-size: 16px;
+}
+footer{
+	margin-top: 10vh;
+	width: 90%;
+}
+}
+
